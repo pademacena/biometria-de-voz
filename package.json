@@ -1,0 +1,29 @@
+{
+  "name": "biometria-de-voz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/testeBiometria.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pademacena/biometria-de-voz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pademacena/biometria-de-voz/issues"
+  },
+  "homepage": "https://github.com/pademacena/biometria-de-voz#readme",
+  "devDependencies": {
+    "@types/node-wav": "^0.0.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "meyda": "^5.6.0",
+    "node-wav": "^0.0.2"
+  }
+}
